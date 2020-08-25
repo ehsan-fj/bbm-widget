@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stage.broadbandmap.nz/widget.css">
+    <script src="https://stage.broadbandmap.nz/widget.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="broadband-map-widget"></div>
+      <script>
+          BBMap.init({
+          addressFinderKey: "TDJQWCAGBL6394ERK7VU",
+          showMap: true,
+          showMapKey: true,
+          technologies: ["wireless", "fibre"],
+          providerName: "rexnetworks",
+          center: {lat: -41.275467, lng: 173.274780},
+          zoom: 7
+      });
+    </script>
+</body>
+</html>
